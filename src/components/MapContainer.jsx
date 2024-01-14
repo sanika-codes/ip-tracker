@@ -30,7 +30,7 @@ function MapContainer() {
             let marker = new AdvancedMarkerElement({
                 map: map,
                 position: { lat: locationState.lat, lng: locationState.lng },
-                title: "Uluru",
+                
               });
           });
     },[locationState])

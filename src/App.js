@@ -1,5 +1,6 @@
 import * as React from "react";
 import CssBaseline from "@mui/material/CssBaseline";
+import Typography from "@mui/material/Typography";
 import Paper from "@mui/material/Paper";
 import Grid from "@mui/material/Grid";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
@@ -25,6 +26,11 @@ function App() {
         </Grid>
         </Provider>
       </Grid>
+      <footer>
+      <Typography variant="overline" display="block" textAlign={'center'}>
+        CREATED BY SANIKA WITH REACT & REDUX 
+      </Typography>
+      </footer>
     </ThemeProvider>
   );
 }
